@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.bg1{
+	display:block;/*默认是内联元素 这样设置才能居中显示*/
+	position:absolute;
+	margin:30px 400px;;
+	/*width:450px;
+	height:450px;*/
+	background-color:transparent;
+	padding:10px;
+	/*border:1px solid red;*/
+}
+.bg2{
+	display:block;/*默认是内联元素 这样设置才能居中显示*/
+	position:absolute;
+	margin:30px 400px;
+	/*width:450px;
+	height:450px;*/
+	background-color:#eee;
+	padding:10px;
+}
+.replay{
+	display:block;
+	position:absolute;
+	top:40px;
+	right:285px;
+	width:90px;
+	height:40px;
+	background-color:#cd96cd;
+	color:#fff;
+	font-size:18px;
+	line-height:40px;	
+}
+.restep{
+	display:block;
+	position:absolute;
+	top:100px;
+	right:285px;
+	width:90px;
+	height:40px;
+	background-color:#cd96cd;
+	color:#fff;
+	font-size:18px;
+	line-height:40px;	
+}
